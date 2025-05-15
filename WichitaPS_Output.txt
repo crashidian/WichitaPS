@@ -1,0 +1,1274 @@
+
+Wichita Public Schools Improvement Planner
+==================================================
+
+Enter the path to your CSV file (or type 'exit' to quit): Error: File not found or not a CSV file: C:\Users\me\OneDrive\Documents\Work\WichitaPS
+Please enter a valid path to a CSV file.
+
+Enter the path to your CSV file (or type 'exit' to quit): 
+Loading and processing data...
+Successfully processed 101 schools with valid data
+
+Wichita Public Schools Improvement Planner
+==================================================
+Please select a strategy:
+1. Status Quo
+2. Cheapest Option
+3. Within Entire Scope Option (Quality)
+4. Highest Quality Option
+5. Cheapest+Fastest (low quality)
+6. Cheapest+Quality (low priority)
+7. Fastest+Quality (the most expensive)
+8. Run all strategies and compare
+9. Run clustering analysis
+
+Enter your choice (1-9) or 'exit' to quit: Strategy 2 (Cheapest_Option): Selected 75 schools
+  - Total Cost: $441,884,296.29
+  - Avg Priority: 0.3279
+  - Avg Speed: 0.9433
+
+Wichita Public Schools Improvement Plan - Strategy: Cheapest_Option
+================================================================================
+Total Budget: $450,000,000.00
+Total Cost: $284,138,443.32
+Remaining Budget: $165,861,556.68
+Number of Phases: 4
+Number of Schools: 59
+Average Priority Score: 0.3072
+Average Speed Score: 0.9537
+
+Phase 1
+----------------------------------------
+Phase Budget: $112,500,000.00
+Phase Cost: $23,721,939.61
+Remaining Phase Budget: $88,778,060.39
+Schools in this phase: 15
+
+Grace Med Clinic (West) 1006
+  Cost: $65,843.58
+  FCI: 6.56%
+  Priority Score: 0.1763
+  Speed Score: 0.9994
+  Current Utilization: 0.0%
+  2028/29 Utilization: 50.0%
+  Classroom Size Issues: No
+  FMP Recommendation: maintain
+
+Grace Med Clinic (Jardine) 1005
+  Cost: $65,843.58
+  FCI: 6.56%
+  Priority Score: 0.1763
+  Speed Score: 0.9994
+  Current Utilization: 0.0%
+  2028/29 Utilization: 50.0%
+  Classroom Size Issues: No
+  FMP Recommendation: maintain
+
+Grace Med Clinic (Gardiner)) 1003
+  Cost: $68,869.51
+  FCI: 5.12%
+  Priority Score: 0.1705
+  Speed Score: 0.9993
+  Current Utilization: 0.0%
+  2028/29 Utilization: 50.0%
+  Classroom Size Issues: No
+  FMP Recommendation: maintain
+
+Grace Med Clinic (Cloud) 1001
+  Cost: $117,169.81
+  FCI: 12.52%
+  Priority Score: 0.2001
+  Speed Score: 0.9989
+  Current Utilization: 0.0%
+  2028/29 Utilization: 50.0%
+  Classroom Size Issues: No
+  FMP Recommendation: maintain
+
+Grace Med Clinic (Gordon Parks) 1004
+  Cost: $291,397.56
+  FCI: 39.92%
+  Priority Score: 0.3097
+  Speed Score: 0.9972
+  Current Utilization: 0.0%
+  2028/29 Utilization: 50.0%
+  Classroom Size Issues: No
+  FMP Recommendation: maintain
+
+Grace Med Clinic (Dodge) 1002
+  Cost: $556,133.86
+  FCI: 54.94%
+  Priority Score: 0.3697
+  Speed Score: 0.9947
+  Current Utilization: 0.0%
+  2028/29 Utilization: 50.0%
+  Classroom Size Issues: No
+  FMP Recommendation: maintain
+
+Enders STEM and Leadership Magnet 374
+  Cost: $911,073.14
+  FCI: 6.00%
+  Priority Score: 0.1414
+  Speed Score: 0.9912
+  Current Utilization: 59.4%
+  2028/29 Utilization: 62.6%
+  Classroom Size Issues: No
+  FMP Recommendation: maintain
+
+Earhart Environmental Magnet 392
+  Cost: $1,933,217.17
+  FCI: 16.00%
+  Priority Score: 0.1218
+  Speed Score: 0.9814
+  Current Utilization: 81.3%
+  2028/29 Utilization: 80.7%
+  Classroom Size Issues: No
+  FMP Recommendation: maintain
+
+Dodge Literacy Magnet 317
+  Cost: $2,056,832.33
+  FCI: 14.00%
+  Priority Score: 0.0787
+  Speed Score: 0.9802
+  Current Utilization: 89.2%
+  2028/29 Utilization: 92.4%
+  Classroom Size Issues: No
+  FMP Recommendation: maintain
+
+Allen 303
+  Cost: $2,079,679.13
+  FCI: 18.00%
+  Priority Score: 0.1492
+  Speed Score: 0.9800
+  Current Utilization: 74.1%
+  2028/29 Utilization: 74.3%
+  Classroom Size Issues: No
+  FMP Recommendation: maintain
+
+IST 901
+  Cost: $2,198,636.66
+  FCI: 53.00%
+  Priority Score: 0.3620
+  Speed Score: 0.9789
+  Current Utilization: 0.0%
+  2028/29 Utilization: 50.0%
+  Classroom Size Issues: No
+  FMP Recommendation: consolidate
+
+Future Ready Center 900
+  Cost: $3,099,344.69
+  FCI: 55.00%
+  Priority Score: 0.3700
+  Speed Score: 0.9702
+  Current Utilization: 0.0%
+  2028/29 Utilization: 50.0%
+  Classroom Size Issues: No
+  FMP Recommendation: add
+
+Ortiz 394
+  Cost: $3,291,578.95
+  FCI: 24.00%
+  Priority Score: 0.1781
+  Speed Score: 0.9683
+  Current Utilization: 66.6%
+  2028/29 Utilization: 72.6%
+  Classroom Size Issues: No
+  FMP Recommendation: maintain
+
+Woodland STEM Academy Leaders in BioScience 376
+  Cost: $3,410,499.49
+  FCI: 48.00%
+  Priority Score: 0.3127
+  Speed Score: 0.9672
+  Current Utilization: 74.6%
+  2028/29 Utilization: 62.7%
+  Classroom Size Issues: No
+  FMP Recommendation: consolidate
+
+Little Early Childhood Ed. Center 344
+  Cost: $3,575,820.15
+  FCI: 69.00%
+  Priority Score: 0.4260
+  Speed Score: 0.9656
+  Current Utilization: 200.0%
+  2028/29 Utilization: 50.0%
+  Classroom Size Issues: No
+  FMP Recommendation: consolidate
+
+Phase 2
+----------------------------------------
+Phase Budget: $112,500,000.00
+Phase Cost: $66,744,018.74
+Remaining Phase Budget: $45,755,981.26
+Schools in this phase: 15
+
+Dunbar Support Center 319
+  Cost: $3,581,900.52
+  FCI: 65.00%
+  Priority Score: 0.4100
+  Speed Score: 0.9656
+  Current Utilization: 0.0%
+  2028/29 Utilization: 50.0%
+  Classroom Size Issues: No
+  FMP Recommendation: consolidate
+
+Seltzer 362
+  Cost: $3,847,640.88
+  FCI: 26.00%
+  Priority Score: 0.2006
+  Speed Score: 0.9630
+  Current Utilization: 73.5%
+  2028/29 Utilization: 67.8%
+  Classroom Size Issues: No
+  FMP Recommendation: maintain
+
+Southeast
+  Cost: $4,019,932.37
+  FCI: 5.00%
+  Priority Score: 0.2129
+  Speed Score: 0.9613
+  Current Utilization: 87.2%
+  2028/29 Utilization: 81.6%
+  Classroom Size Issues: No
+  FMP Recommendation: maintain
+
+Gateway Alt. Program (Old Emerson) 320
+  Cost: $4,245,678.64
+  FCI: 74.00%
+  Priority Score: 0.4460
+  Speed Score: 0.9592
+  Current Utilization: 0.0%
+  2028/29 Utilization: 50.0%
+  Classroom Size Issues: No
+  FMP Recommendation: consolidate
+
+Horace Mann 235
+  Cost: $4,288,287.53
+  FCI: 24.00%
+  Priority Score: 0.1395
+  Speed Score: 0.9588
+  Current Utilization: 61.7%
+  2028/29 Utilization: 85.5%
+  Classroom Size Issues: No
+  FMP Recommendation: maintain
+
+Mueller Aerospace/Engineering Mag. 335
+  Cost: $4,339,418.46
+  FCI: 31.00%
+  Priority Score: 0.2397
+  Speed Score: 0.9583
+  Current Utilization: 62.4%
+  2028/29 Utilization: 61.4%
+  Classroom Size Issues: No
+  FMP Recommendation: maintain
+
+Isely Traditional Magnet 221
+  Cost: $4,353,900.29
+  FCI: 16.00%
+  Priority Score: 0.1678
+  Speed Score: 0.9581
+  Current Utilization: 73.6%
+  2028/29 Utilization: 71.6%
+  Classroom Size Issues: No
+  FMP Recommendation: maintain
+
+Enterprise 387
+  Cost: $4,404,645.86
+  FCI: 41.00%
+  Priority Score: 0.2384
+  Speed Score: 0.9576
+  Current Utilization: 81.1%
+  2028/29 Utilization: 75.2%
+  Classroom Size Issues: No
+  FMP Recommendation: maintain
+
+Cleaveland Traditional Magnet 314
+  Cost: $4,442,844.80
+  FCI: 43.00%
+  Priority Score: 0.2683
+  Speed Score: 0.9573
+  Current Utilization: 83.7%
+  2028/29 Utilization: 84.6%
+  Classroom Size Issues: No
+  FMP Recommendation: consolidated24
+
+Spaght Sci/Communications Magnet 333
+  Cost: $4,609,202.13
+  FCI: 31.00%
+  Priority Score: 0.1922
+  Speed Score: 0.9557
+  Current Utilization: 80.2%
+  2028/29 Utilization: 77.3%
+  Classroom Size Issues: No
+  FMP Recommendation: maintain
+
+Beech 372
+  Cost: $4,710,173.13
+  FCI: 31.00%
+  Priority Score: 0.1882
+  Speed Score: 0.9547
+  Current Utilization: 75.7%
+  2028/29 Utilization: 78.6%
+  Classroom Size Issues: No
+  FMP Recommendation: maintain
+
+Wells Alternative Middle School 373
+  Cost: $4,861,643.54
+  FCI: 68.00%
+  Priority Score: 0.4720
+  Speed Score: 0.9532
+  Current Utilization: 200.0%
+  2028/29 Utilization: 50.0%
+  Classroom Size Issues: No
+  FMP Recommendation: add
+
+Benton 381
+  Cost: $4,983,959.65
+  FCI: 40.00%
+  Priority Score: 0.2720
+  Speed Score: 0.9521
+  Current Utilization: 66.3%
+  2028/29 Utilization: 62.7%
+  Classroom Size Issues: No
+  FMP Recommendation: add
+
+Bostic Traditional Magnet 368
+  Cost: $4,988,546.97
+  FCI: 48.00%
+  Priority Score: 0.3233
+  Speed Score: 0.9520
+  Current Utilization: 77.3%
+  2028/29 Utilization: 78.1%
+  Classroom Size Issues: No
+  FMP Recommendation: rebuild
+
+Levy Special Education Center 299
+  Cost: $5,066,243.97
+  FCI: 37.00%
+  Priority Score: 0.4118
+  Speed Score: 0.9513
+  Current Utilization: 200.0%
+  2028/29 Utilization: 50.0%
+  Classroom Size Issues: No
+  FMP Recommendation: maintain
+
+Phase 3
+----------------------------------------
+Phase Budget: $112,500,000.00
+Phase Cost: $89,387,355.26
+Remaining Phase Budget: $23,112,644.74
+Schools in this phase: 15
+
+Payne 358
+  Cost: $5,116,513.49
+  FCI: 70.00%
+  Priority Score: 0.4339
+  Speed Score: 0.9508
+  Current Utilization: 55.7%
+  2028/29 Utilization: 48.7%
+  Classroom Size Issues: No
+  FMP Recommendation: consolidated24
+
+Gordon Parks Academy 247
+  Cost: $5,137,503.84
+  FCI: 30.00%
+  Priority Score: 0.1750
+  Speed Score: 0.9506
+  Current Utilization: 53.7%
+  2028/29 Utilization: 81.7%
+  Classroom Size Issues: No
+  FMP Recommendation: maintain
+
+Sowers Alternative High Schools 366
+  Cost: $5,484,258.67
+  FCI: 77.00%
+  Priority Score: 0.4580
+  Speed Score: 0.9473
+  Current Utilization: 200.0%
+  2028/29 Utilization: 50.0%
+  Classroom Size Issues: No
+  FMP Recommendation: consolidate
+
+McLean Science and Tech Magnet 352
+  Cost: $5,528,134.18
+  FCI: 59.00%
+  Priority Score: 0.3326
+  Speed Score: 0.9468
+  Current Utilization: 69.1%
+  2028/29 Utilization: 74.1%
+  Classroom Size Issues: No
+  FMP Recommendation: rebuild
+
+Linwood 343
+  Cost: $5,746,188.74
+  FCI: 40.00%
+  Priority Score: 0.2494
+  Speed Score: 0.9447
+  Current Utilization: 76.7%
+  2028/29 Utilization: 70.2%
+  Classroom Size Issues: No
+  FMP Recommendation: maintain
+
+Cessna 388
+  Cost: $5,759,873.62
+  FCI: 45.00%
+  Priority Score: 0.2525
+  Speed Score: 0.9446
+  Current Utilization: 73.0%
+  2028/29 Utilization: 75.8%
+  Classroom Size Issues: No
+  FMP Recommendation: add
+
+Bryant Opportunity Academy 239
+  Cost: $5,787,611.81
+  FCI: 63.00%
+  Priority Score: 0.4020
+  Speed Score: 0.9443
+  Current Utilization: 200.0%
+  2028/29 Utilization: 50.0%
+  Classroom Size Issues: No
+  FMP Recommendation: repurpose
+
+Washington Accelerated Learning 371
+  Cost: $5,928,967.70
+  FCI: 35.00%
+  Priority Score: 0.2509
+  Speed Score: 0.9430
+  Current Utilization: 74.3%
+  2028/29 Utilization: 65.0%
+  Classroom Size Issues: No
+  FMP Recommendation: maintain
+
+L'Ouverture Career Explorations & Tech. Mag. 346
+  Cost: $6,228,974.78
+  FCI: 62.00%
+  Priority Score: 0.3804
+  Speed Score: 0.9401
+  Current Utilization: 57.8%
+  2028/29 Utilization: 55.9%
+  Classroom Size Issues: No
+  FMP Recommendation: consolidate
+
+Jefferson 336
+  Cost: $6,391,188.81
+  FCI: 57.00%
+  Priority Score: 0.3548
+  Speed Score: 0.9385
+  Current Utilization: 73.1%
+  2028/29 Utilization: 64.6%
+  Classroom Size Issues: No
+  FMP Recommendation: maintain
+
+Christa McAuliffe Academy 200
+  Cost: $6,394,185.71
+  FCI: 21.00%
+  Priority Score: 0.1280
+  Speed Score: 0.9385
+  Current Utilization: 89.6%
+  2028/29 Utilization: 85.3%
+  Classroom Size Issues: No
+  FMP Recommendation: maintain
+
+Buckner Performing Arts/Sci Magnet 378
+  Cost: $6,401,726.97
+  FCI: 64.00%
+  Priority Score: 0.4276
+  Speed Score: 0.9384
+  Current Utilization: 68.3%
+  2028/29 Utilization: 60.3%
+  Classroom Size Issues: No
+  FMP Recommendation: consolidate
+
+Hyde Int'l Studies/Commun Magnet 332
+  Cost: $6,467,401.15
+  FCI: 67.00%
+  Priority Score: 0.4301
+  Speed Score: 0.9378
+  Current Utilization: 77.4%
+  2028/29 Utilization: 69.0%
+  Classroom Size Issues: No
+  FMP Recommendation: consolidate
+
+Dunlap (Chisholm Life) 311
+  Cost: $6,496,242.66
+  FCI: 83.00%
+  Priority Score: 0.4820
+  Speed Score: 0.9375
+  Current Utilization: 200.0%
+  2028/29 Utilization: 50.0%
+  Classroom Size Issues: No
+  FMP Recommendation: consolidate
+
+Price-Harris Communications Magnet 330
+  Cost: $6,518,583.13
+  FCI: 56.00%
+  Priority Score: 0.2787
+  Speed Score: 0.9373
+  Current Utilization: 82.5%
+  2028/29 Utilization: 81.8%
+  Classroom Size Issues: No
+  FMP Recommendation: maintain
+
+Phase 4
+----------------------------------------
+Phase Budget: $112,500,000.00
+Phase Cost: $104,285,129.71
+Remaining Phase Budget: $8,214,870.29
+Schools in this phase: 14
+
+Harry Street 331
+  Cost: $6,731,956.64
+  FCI: 65.00%
+  Priority Score: 0.4666
+  Speed Score: 0.9353
+  Current Utilization: 78.6%
+  2028/29 Utilization: 60.6%
+  Classroom Size Issues: No
+  FMP Recommendation: consolidate
+
+Jackson 318
+  Cost: $6,779,729.03
+  FCI: 48.00%
+  Priority Score: 0.3648
+  Speed Score: 0.9348
+  Current Utilization: 44.9%
+  2028/29 Utilization: 42.4%
+  Classroom Size Issues: No
+  FMP Recommendation: maintain
+
+Kelly Liberal Arts Academy 338
+  Cost: $6,799,511.06
+  FCI: 49.00%
+  Priority Score: 0.3572
+  Speed Score: 0.9346
+  Current Utilization: 60.4%
+  2028/29 Utilization: 56.8%
+  Classroom Size Issues: No
+  FMP Recommendation: maintain
+
+Gammon 355
+  Cost: $6,987,425.13
+  FCI: 47.00%
+  Priority Score: 0.2815
+  Speed Score: 0.9328
+  Current Utilization: 72.3%
+  2028/29 Utilization: 68.8%
+  Classroom Size Issues: No
+  FMP Recommendation: maintain
+
+College Hill 316
+  Cost: $7,095,065.85
+  FCI: 63.00%
+  Priority Score: 0.3265
+  Speed Score: 0.9318
+  Current Utilization: 78.6%
+  2028/29 Utilization: 75.2%
+  Classroom Size Issues: No
+  FMP Recommendation: maintain
+
+Riverside Leadership Magnet 360
+  Cost: $7,396,328.83
+  FCI: 84.00%
+  Priority Score: 0.3702
+  Speed Score: 0.9289
+  Current Utilization: 81.6%
+  2028/29 Utilization: 88.6%
+  Classroom Size Issues: No
+  FMP Recommendation: consolidate
+
+Franklin 326
+  Cost: $7,531,569.85
+  FCI: 75.00%
+  Priority Score: 0.5043
+  Speed Score: 0.9276
+  Current Utilization: 78.3%
+  2028/29 Utilization: 72.5%
+  Classroom Size Issues: No
+  FMP Recommendation: rebuild
+
+Lawrence 340
+  Cost: $7,603,357.06
+  FCI: 62.00%
+  Priority Score: 0.3503
+  Speed Score: 0.9269
+  Current Utilization: 75.6%
+  2028/29 Utilization: 65.9%
+  Classroom Size Issues: No
+  FMP Recommendation: maintain
+
+Northeast
+  Cost: $7,633,490.99
+  FCI: 13.00%
+  Priority Score: 0.3226
+  Speed Score: 0.9266
+  Current Utilization: 61.8%
+  2028/29 Utilization: 58.4%
+  Classroom Size Issues: No
+  FMP Recommendation: maintain
+
+Nutrition Services 866
+  Cost: $7,828,210.03
+  FCI: 62.00%
+  Priority Score: 0.3980
+  Speed Score: 0.9247
+  Current Utilization: 0.0%
+  2028/29 Utilization: 50.0%
+  Classroom Size Issues: No
+  FMP Recommendation: maintain
+
+Griffith 380
+  Cost: $7,851,269.25
+  FCI: 55.00%
+  Priority Score: 0.3344
+  Speed Score: 0.9245
+  Current Utilization: 68.3%
+  2028/29 Utilization: 61.9%
+  Classroom Size Issues: No
+  FMP Recommendation: maintain
+
+McCollom 383
+  Cost: $7,880,625.79
+  FCI: 65.00%
+  Priority Score: 0.3901
+  Speed Score: 0.9242
+  Current Utilization: 61.8%
+  2028/29 Utilization: 56.6%
+  Classroom Size Issues: No
+  FMP Recommendation: rebuild
+
+Pleasant Valley 397
+  Cost: $8,019,800.71
+  FCI: 80.00%
+  Priority Score: 0.4584
+  Speed Score: 0.9229
+  Current Utilization: 59.5%
+  2028/29 Utilization: 56.7%
+  Classroom Size Issues: No
+  FMP Recommendation: consolidate
+
+OK 379
+  Cost: $8,146,789.49
+  FCI: 75.00%
+  Priority Score: 0.4376
+  Speed Score: 0.9217
+  Current Utilization: 62.0%
+  2028/29 Utilization: 57.5%
+  Classroom Size Issues: No
+  FMP Recommendation: consolidate
+
+Would you like to run another analysis? (y/n): 
+Enter your choice (1-9) or 'exit' to quit: Strategy 3 (Within_Scope): Selected 75 schools
+  - Total Cost: $447,649,441.29
+  - Avg Priority: 0.3319
+  - Avg Speed: 0.9426
+
+Wichita Public Schools Improvement Plan - Strategy: Within_Scope
+================================================================================
+Total Budget: $450,000,000.00
+Total Cost: $393,533,371.27
+Remaining Budget: $56,466,628.73
+Number of Phases: 4
+Number of Schools: 57
+Average Priority Score: 0.3818
+Average Speed Score: 0.9336
+
+Phase 1
+----------------------------------------
+Phase Budget: $112,500,000.00
+Phase Cost: $103,336,252.43
+Remaining Phase Budget: $9,163,747.57
+Schools in this phase: 13
+
+Park 357
+  Cost: $10,966,919.98
+  FCI: 95.00%
+  Priority Score: 0.5863
+  Speed Score: 0.8945
+  Current Utilization: 67.8%
+  2028/29 Utilization: 58.7%
+  Classroom Size Issues: No
+  FMP Recommendation: consolidated24
+
+Franklin 326
+  Cost: $7,531,569.85
+  FCI: 75.00%
+  Priority Score: 0.5043
+  Speed Score: 0.9276
+  Current Utilization: 78.3%
+  2028/29 Utilization: 72.5%
+  Classroom Size Issues: No
+  FMP Recommendation: rebuild
+
+Dunlap (Chisholm Life) 311
+  Cost: $6,496,242.66
+  FCI: 83.00%
+  Priority Score: 0.4820
+  Speed Score: 0.9375
+  Current Utilization: 200.0%
+  2028/29 Utilization: 50.0%
+  Classroom Size Issues: No
+  FMP Recommendation: consolidate
+
+Wells Alternative Middle School 373
+  Cost: $4,861,643.54
+  FCI: 68.00%
+  Priority Score: 0.4720
+  Speed Score: 0.9532
+  Current Utilization: 200.0%
+  2028/29 Utilization: 50.0%
+  Classroom Size Issues: No
+  FMP Recommendation: add
+
+Caldwell 309
+  Cost: $11,784,312.08
+  FCI: 72.00%
+  Priority Score: 0.4702
+  Speed Score: 0.8867
+  Current Utilization: 64.4%
+  2028/29 Utilization: 53.3%
+  Classroom Size Issues: No
+  FMP Recommendation: rebuild
+
+Harry Street 331
+  Cost: $6,731,956.64
+  FCI: 65.00%
+  Priority Score: 0.4666
+  Speed Score: 0.9353
+  Current Utilization: 78.6%
+  2028/29 Utilization: 60.6%
+  Classroom Size Issues: No
+  FMP Recommendation: consolidate
+
+Pleasant Valley 397
+  Cost: $8,019,800.71
+  FCI: 80.00%
+  Priority Score: 0.4584
+  Speed Score: 0.9229
+  Current Utilization: 59.5%
+  2028/29 Utilization: 56.7%
+  Classroom Size Issues: No
+  FMP Recommendation: consolidate
+
+Sowers Alternative High Schools 366
+  Cost: $5,484,258.67
+  FCI: 77.00%
+  Priority Score: 0.4580
+  Speed Score: 0.9473
+  Current Utilization: 200.0%
+  2028/29 Utilization: 50.0%
+  Classroom Size Issues: No
+  FMP Recommendation: consolidate
+
+Clark 312
+  Cost: $8,263,702.71
+  FCI: 76.00%
+  Priority Score: 0.4540
+  Speed Score: 0.9205
+  Current Utilization: 200.0%
+  2028/29 Utilization: 50.0%
+  Classroom Size Issues: No
+  FMP Recommendation: consolidated24
+
+Gardiner 327
+  Cost: $11,249,944.24
+  FCI: 72.00%
+  Priority Score: 0.4505
+  Speed Score: 0.8918
+  Current Utilization: 62.4%
+  2028/29 Utilization: 54.8%
+  Classroom Size Issues: No
+  FMP Recommendation: rebuild
+
+Gateway Alt. Program (Old Emerson) 320
+  Cost: $4,245,678.64
+  FCI: 74.00%
+  Priority Score: 0.4460
+  Speed Score: 0.9592
+  Current Utilization: 0.0%
+  2028/29 Utilization: 50.0%
+  Classroom Size Issues: No
+  FMP Recommendation: consolidate
+
+Peterson 384
+  Cost: $9,553,433.22
+  FCI: 71.00%
+  Priority Score: 0.4425
+  Speed Score: 0.9081
+  Current Utilization: 58.6%
+  2028/29 Utilization: 60.8%
+  Classroom Size Issues: No
+  FMP Recommendation: consolidate
+
+OK 379
+  Cost: $8,146,789.49
+  FCI: 75.00%
+  Priority Score: 0.4376
+  Speed Score: 0.9217
+  Current Utilization: 62.0%
+  2028/29 Utilization: 57.5%
+  Classroom Size Issues: No
+  FMP Recommendation: consolidate
+
+Phase 2
+----------------------------------------
+Phase Budget: $112,500,000.00
+Phase Cost: $105,269,340.04
+Remaining Phase Budget: $7,230,659.96
+Schools in this phase: 14
+
+ISC Joyce Focht 912
+  Cost: $9,866,039.67
+  FCI: 71.00%
+  Priority Score: 0.4340
+  Speed Score: 0.9051
+  Current Utilization: 0.0%
+  2028/29 Utilization: 50.0%
+  Classroom Size Issues: No
+  FMP Recommendation: consolidate
+
+Payne 358
+  Cost: $5,116,513.49
+  FCI: 70.00%
+  Priority Score: 0.4339
+  Speed Score: 0.9508
+  Current Utilization: 55.7%
+  2028/29 Utilization: 48.7%
+  Classroom Size Issues: No
+  FMP Recommendation: consolidated24
+
+Adams 301
+  Cost: $12,159,330.71
+  FCI: 90.00%
+  Priority Score: 0.4337
+  Speed Score: 0.8831
+  Current Utilization: 79.2%
+  2028/29 Utilization: 75.4%
+  Classroom Size Issues: No
+  FMP Recommendation: rebuild
+
+Hyde Int'l Studies/Commun Magnet 332
+  Cost: $6,467,401.15
+  FCI: 67.00%
+  Priority Score: 0.4301
+  Speed Score: 0.9378
+  Current Utilization: 77.4%
+  2028/29 Utilization: 69.0%
+  Classroom Size Issues: No
+  FMP Recommendation: consolidate
+
+Buckner Performing Arts/Sci Magnet 378
+  Cost: $6,401,726.97
+  FCI: 64.00%
+  Priority Score: 0.4276
+  Speed Score: 0.9384
+  Current Utilization: 68.3%
+  2028/29 Utilization: 60.3%
+  Classroom Size Issues: No
+  FMP Recommendation: consolidate
+
+Black Traditional Magnet 305
+  Cost: $8,353,754.28
+  FCI: 70.00%
+  Priority Score: 0.4269
+  Speed Score: 0.9197
+  Current Utilization: 56.0%
+  2028/29 Utilization: 51.0%
+  Classroom Size Issues: No
+  FMP Recommendation: rebuild
+
+Little Early Childhood Ed. Center 344
+  Cost: $3,575,820.15
+  FCI: 69.00%
+  Priority Score: 0.4260
+  Speed Score: 0.9656
+  Current Utilization: 200.0%
+  2028/29 Utilization: 50.0%
+  Classroom Size Issues: No
+  FMP Recommendation: consolidate
+
+Irving 334
+  Cost: $10,452,838.55
+  FCI: 75.00%
+  Priority Score: 0.4217
+  Speed Score: 0.8995
+  Current Utilization: 64.2%
+  2028/29 Utilization: 61.8%
+  Classroom Size Issues: No
+  FMP Recommendation: rebuild
+
+Chisholm Trail 386
+  Cost: $10,978,186.21
+  FCI: 62.00%
+  Priority Score: 0.4152
+  Speed Score: 0.8944
+  Current Utilization: 54.4%
+  2028/29 Utilization: 47.7%
+  Classroom Size Issues: No
+  FMP Recommendation: add
+
+Levy Special Education Center 299
+  Cost: $5,066,243.97
+  FCI: 37.00%
+  Priority Score: 0.4118
+  Speed Score: 0.9513
+  Current Utilization: 200.0%
+  2028/29 Utilization: 50.0%
+  Classroom Size Issues: No
+  FMP Recommendation: maintain
+
+Dunbar Support Center 319
+  Cost: $3,581,900.52
+  FCI: 65.00%
+  Priority Score: 0.4100
+  Speed Score: 0.9656
+  Current Utilization: 0.0%
+  2028/29 Utilization: 50.0%
+  Classroom Size Issues: No
+  FMP Recommendation: consolidate
+
+Stanley 367
+  Cost: $9,633,762.53
+  FCI: 65.00%
+  Priority Score: 0.4092
+  Speed Score: 0.9074
+  Current Utilization: 72.5%
+  2028/29 Utilization: 65.3%
+  Classroom Size Issues: No
+  FMP Recommendation: rebuild
+
+Bryant Opportunity Academy 239
+  Cost: $5,787,611.81
+  FCI: 63.00%
+  Priority Score: 0.4020
+  Speed Score: 0.9443
+  Current Utilization: 200.0%
+  2028/29 Utilization: 50.0%
+  Classroom Size Issues: No
+  FMP Recommendation: repurpose
+
+Nutrition Services 866
+  Cost: $7,828,210.03
+  FCI: 62.00%
+  Priority Score: 0.3980
+  Speed Score: 0.9247
+  Current Utilization: 0.0%
+  2028/29 Utilization: 50.0%
+  Classroom Size Issues: No
+  FMP Recommendation: maintain
+
+Phase 3
+----------------------------------------
+Phase Budget: $112,500,000.00
+Phase Cost: $101,987,747.72
+Remaining Phase Budget: $10,512,252.28
+Schools in this phase: 15
+
+McCollom 383
+  Cost: $7,880,625.79
+  FCI: 65.00%
+  Priority Score: 0.3901
+  Speed Score: 0.9242
+  Current Utilization: 61.8%
+  2028/29 Utilization: 56.6%
+  Classroom Size Issues: No
+  FMP Recommendation: rebuild
+
+L'Ouverture Career Explorations & Tech. Mag. 346
+  Cost: $6,228,974.78
+  FCI: 62.00%
+  Priority Score: 0.3804
+  Speed Score: 0.9401
+  Current Utilization: 57.8%
+  2028/29 Utilization: 55.9%
+  Classroom Size Issues: No
+  FMP Recommendation: consolidate
+
+Anderson 375
+  Cost: $9,721,687.85
+  FCI: 64.00%
+  Priority Score: 0.3782
+  Speed Score: 0.9065
+  Current Utilization: 70.2%
+  2028/29 Utilization: 59.3%
+  Classroom Size Issues: No
+  FMP Recommendation: renovate
+
+Woodman 377
+  Cost: $10,464,051.14
+  FCI: 53.00%
+  Priority Score: 0.3775
+  Speed Score: 0.8994
+  Current Utilization: 77.2%
+  2028/29 Utilization: 69.8%
+  Classroom Size Issues: No
+  FMP Recommendation: rebuild
+
+White 399
+  Cost: $8,357,955.27
+  FCI: 56.00%
+  Priority Score: 0.3703
+  Speed Score: 0.9196
+  Current Utilization: 64.3%
+  2028/29 Utilization: 56.8%
+  Classroom Size Issues: No
+  FMP Recommendation: rebuild
+
+Riverside Leadership Magnet 360
+  Cost: $7,396,328.83
+  FCI: 84.00%
+  Priority Score: 0.3702
+  Speed Score: 0.9289
+  Current Utilization: 81.6%
+  2028/29 Utilization: 88.6%
+  Classroom Size Issues: No
+  FMP Recommendation: consolidate
+
+Future Ready Center 900
+  Cost: $3,099,344.69
+  FCI: 55.00%
+  Priority Score: 0.3700
+  Speed Score: 0.9702
+  Current Utilization: 0.0%
+  2028/29 Utilization: 50.0%
+  Classroom Size Issues: No
+  FMP Recommendation: add
+
+Grace Med Clinic (Dodge) 1002
+  Cost: $556,133.86
+  FCI: 54.94%
+  Priority Score: 0.3697
+  Speed Score: 0.9947
+  Current Utilization: 0.0%
+  2028/29 Utilization: 50.0%
+  Classroom Size Issues: No
+  FMP Recommendation: maintain
+
+Jackson 318
+  Cost: $6,779,729.03
+  FCI: 48.00%
+  Priority Score: 0.3648
+  Speed Score: 0.9348
+  Current Utilization: 44.9%
+  2028/29 Utilization: 42.4%
+  Classroom Size Issues: No
+  FMP Recommendation: maintain
+
+IST 901
+  Cost: $2,198,636.66
+  FCI: 53.00%
+  Priority Score: 0.3620
+  Speed Score: 0.9789
+  Current Utilization: 0.0%
+  2028/29 Utilization: 50.0%
+  Classroom Size Issues: No
+  FMP Recommendation: consolidate
+
+Kelly Liberal Arts Academy 338
+  Cost: $6,799,511.06
+  FCI: 49.00%
+  Priority Score: 0.3572
+  Speed Score: 0.9346
+  Current Utilization: 60.4%
+  2028/29 Utilization: 56.8%
+  Classroom Size Issues: No
+  FMP Recommendation: maintain
+
+Jefferson 336
+  Cost: $6,391,188.81
+  FCI: 57.00%
+  Priority Score: 0.3548
+  Speed Score: 0.9385
+  Current Utilization: 73.1%
+  2028/29 Utilization: 64.6%
+  Classroom Size Issues: No
+  FMP Recommendation: maintain
+
+Lawrence 340
+  Cost: $7,603,357.06
+  FCI: 62.00%
+  Priority Score: 0.3503
+  Speed Score: 0.9269
+  Current Utilization: 75.6%
+  2028/29 Utilization: 65.9%
+  Classroom Size Issues: No
+  FMP Recommendation: maintain
+
+Kensler 382
+  Cost: $10,658,953.64
+  FCI: 59.00%
+  Priority Score: 0.3439
+  Speed Score: 0.8975
+  Current Utilization: 63.3%
+  2028/29 Utilization: 65.5%
+  Classroom Size Issues: No
+  FMP Recommendation: rebuild
+
+Griffith 380
+  Cost: $7,851,269.25
+  FCI: 55.00%
+  Priority Score: 0.3344
+  Speed Score: 0.9245
+  Current Utilization: 68.3%
+  2028/29 Utilization: 61.9%
+  Classroom Size Issues: No
+  FMP Recommendation: maintain
+
+Phase 4
+----------------------------------------
+Phase Budget: $112,500,000.00
+Phase Cost: $82,940,031.08
+Remaining Phase Budget: $29,559,968.92
+Schools in this phase: 15
+
+McLean Science and Tech Magnet 352
+  Cost: $5,528,134.18
+  FCI: 59.00%
+  Priority Score: 0.3326
+  Speed Score: 0.9468
+  Current Utilization: 69.1%
+  2028/29 Utilization: 74.1%
+  Classroom Size Issues: No
+  FMP Recommendation: rebuild
+
+College Hill 316
+  Cost: $7,095,065.85
+  FCI: 63.00%
+  Priority Score: 0.3265
+  Speed Score: 0.9318
+  Current Utilization: 78.6%
+  2028/29 Utilization: 75.2%
+  Classroom Size Issues: No
+  FMP Recommendation: maintain
+
+Bostic Traditional Magnet 368
+  Cost: $4,988,546.97
+  FCI: 48.00%
+  Priority Score: 0.3233
+  Speed Score: 0.9520
+  Current Utilization: 77.3%
+  2028/29 Utilization: 78.1%
+  Classroom Size Issues: No
+  FMP Recommendation: rebuild
+
+Northeast
+  Cost: $7,633,490.99
+  FCI: 13.00%
+  Priority Score: 0.3226
+  Speed Score: 0.9266
+  Current Utilization: 61.8%
+  2028/29 Utilization: 58.4%
+  Classroom Size Issues: No
+  FMP Recommendation: maintain
+
+Woodland STEM Academy Leaders in BioScience 376
+  Cost: $3,410,499.49
+  FCI: 48.00%
+  Priority Score: 0.3127
+  Speed Score: 0.9672
+  Current Utilization: 74.6%
+  2028/29 Utilization: 62.7%
+  Classroom Size Issues: No
+  FMP Recommendation: consolidate
+
+Grace Med Clinic (Gordon Parks) 1004
+  Cost: $291,397.56
+  FCI: 39.92%
+  Priority Score: 0.3097
+  Speed Score: 0.9972
+  Current Utilization: 0.0%
+  2028/29 Utilization: 50.0%
+  Classroom Size Issues: No
+  FMP Recommendation: maintain
+
+Gammon 355
+  Cost: $6,987,425.13
+  FCI: 47.00%
+  Priority Score: 0.2815
+  Speed Score: 0.9328
+  Current Utilization: 72.3%
+  2028/29 Utilization: 68.8%
+  Classroom Size Issues: No
+  FMP Recommendation: maintain
+
+Price-Harris Communications Magnet 330
+  Cost: $6,518,583.13
+  FCI: 56.00%
+  Priority Score: 0.2787
+  Speed Score: 0.9373
+  Current Utilization: 82.5%
+  2028/29 Utilization: 81.8%
+  Classroom Size Issues: No
+  FMP Recommendation: maintain
+
+Benton 381
+  Cost: $4,983,959.65
+  FCI: 40.00%
+  Priority Score: 0.2720
+  Speed Score: 0.9521
+  Current Utilization: 66.3%
+  2028/29 Utilization: 62.7%
+  Classroom Size Issues: No
+  FMP Recommendation: add
+
+Cleaveland Traditional Magnet 314
+  Cost: $4,442,844.80
+  FCI: 43.00%
+  Priority Score: 0.2683
+  Speed Score: 0.9573
+  Current Utilization: 83.7%
+  2028/29 Utilization: 84.6%
+  Classroom Size Issues: No
+  FMP Recommendation: consolidated24
+
+Colvin 390
+  Cost: $9,285,634.81
+  FCI: 42.00%
+  Priority Score: 0.2582
+  Speed Score: 0.9107
+  Current Utilization: 79.2%
+  2028/29 Utilization: 69.9%
+  Classroom Size Issues: No
+  FMP Recommendation: maintain
+
+Cessna 388
+  Cost: $5,759,873.62
+  FCI: 45.00%
+  Priority Score: 0.2525
+  Speed Score: 0.9446
+  Current Utilization: 73.0%
+  2028/29 Utilization: 75.8%
+  Classroom Size Issues: No
+  FMP Recommendation: add
+
+Washington Accelerated Learning 371
+  Cost: $5,928,967.70
+  FCI: 35.00%
+  Priority Score: 0.2509
+  Speed Score: 0.9430
+  Current Utilization: 74.3%
+  2028/29 Utilization: 65.0%
+  Classroom Size Issues: No
+  FMP Recommendation: maintain
+
+Linwood 343
+  Cost: $5,746,188.74
+  FCI: 40.00%
+  Priority Score: 0.2494
+  Speed Score: 0.9447
+  Current Utilization: 76.7%
+  2028/29 Utilization: 70.2%
+  Classroom Size Issues: No
+  FMP Recommendation: maintain
+
+Mueller Aerospace/Engineering Mag. 335
+  Cost: $4,339,418.46
+  FCI: 31.00%
+  Priority Score: 0.2397
+  Speed Score: 0.9583
+  Current Utilization: 62.4%
+  2028/29 Utilization: 61.4%
+  Classroom Size Issues: No
+  FMP Recommendation: maintain
+
+Would you like to run another analysis? (y/n): Exiting program.
+The thread 'MainThread' (1) has exited with code 0 (0x0).
+The program 'python3.9.exe' has exited with code 0 (0x0).
