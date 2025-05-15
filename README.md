@@ -8,7 +8,7 @@ This script provides an enhanced version of the Wichita Public Schools improveme
   1. **Status Quo**: The baseline approach balanced for priority
   2. **Cheapest Option**: Focuses on minimizing costs
   3. **Within Entire Scope Option**: Balanced quality improvements within budget
-  4. **Highest Quality Option**: Prioritizes highest quality improvements
+  4. **Speed**: Prioritizes fastest improvements
   5. **Cheapest+Fastest**: Optimizes for low cost and quick implementation
   6. **Cheapest+Quality**: Balances cost savings with quality
   7. **Fastest+Quality**: Premium option focusing on speed and quality
