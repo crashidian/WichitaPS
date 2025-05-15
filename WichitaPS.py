@@ -98,7 +98,7 @@ class WichitaPSModel:
         1. Status Quo (baseline - original algorithm)
         2. Cheapest Option (minimize cost)
         3. Within Entire Scope Option (balance of quality within budget)
-        4. Highest Quality Option (maximize quality)
+        4. Done Quickly Option (maximize speed)
         5. Cheapest+Fastest (low quality)
         6. Cheapest+Quality (low priority)
         7. Fastest+Quality (the most expensive)
@@ -112,7 +112,7 @@ class WichitaPSModel:
                 1: "Status_Quo",
                 2: "Cheapest_Option",
                 3: "Within_Scope",
-                4: "Highest_Quality",
+                4: "Done_Quickly",
                 5: "Cheapest_Fastest",
                 6: "Cheapest_Quality",
                 7: "Fastest_Quality"
@@ -154,11 +154,11 @@ class WichitaPSModel:
                 # Balance priority and cost efficiency
                 prob += pulp.lpSum([x[s] * self.df[self.df['School Name'] == s]['CostEfficiency_Score'].iloc[0] for s in schools])
             
-            elif strategy == 4:  # Highest Quality Option
-                # Maximize quality regardless of cost
-                prob += pulp.lpSum([x[s] * priority_coeffs[s] for s in schools])
-                # Use 120% of budget to allow for higher quality
-                self.total_budget *= 1.2
+            elif strategy == 4:  # Done Quickly Option
+                # Maximize speed score
+                prob += pulp.lpSum([x[s] * speed_coeffs[s] for s in schools])
+                # Use 110% of budget to allow for faster implementation
+                self.total_budget *= 1.1
             
             elif strategy == 5:  # Cheapest+Fastest (low quality)
                 # Combine inverse of cost and speed score
@@ -182,7 +182,7 @@ class WichitaPSModel:
             prob += pulp.lpSum([x[s] * cost_coeffs[s] for s in schools]) <= self.total_budget
             
             # Add a minimum number of schools constraint for some strategies
-            if strategy in [4, 7]:  # Higher quality strategies should ensure broader coverage
+            if strategy in [4, 7]:  # Faster strategies should ensure broader coverage
                 min_schools = max(5, int(len(schools) * 0.15))  # At least 15% of schools or 5 schools
                 prob += pulp.lpSum([x[s] for s in schools]) >= min_schools
             
@@ -214,7 +214,7 @@ class WichitaPSModel:
             # Reset budget if it was modified for this strategy
             if strategy in [4, 5, 6, 7]:
                 if strategy == 4:
-                    self.total_budget /= 1.2
+                    self.total_budget /= 1.1
                 elif strategy == 5:
                     self.total_budget /= 0.8
                 elif strategy == 6:
@@ -242,7 +242,7 @@ class WichitaPSModel:
                 1: "Status_Quo",
                 2: "Cheapest_Option",
                 3: "Within_Scope",
-                4: "Highest_Quality",
+                4: "Done_Quickly",
                 5: "Cheapest_Fastest",
                 6: "Cheapest_Quality",
                 7: "Fastest_Quality"
@@ -272,7 +272,10 @@ class WichitaPSModel:
             current_phase = []
             
             # Adjust phase budget based on strategy
-            if strategy == 5:  # Cheapest+Fastest - more phases with smaller budgets
+            if strategy == 4:  # Done Quickly - fewer phases with larger budgets
+                phase_budget = self.total_budget * 0.5  # 50% of total budget per phase
+                max_phases = 2
+            elif strategy == 5:  # Cheapest+Fastest - more phases with smaller budgets
                 phase_budget = self.total_budget * 0.15  # 15% of total budget per phase
                 max_phases = 6
             elif strategy == 7:  # Fastest+Quality - fewer phases with larger budgets
@@ -283,7 +286,9 @@ class WichitaPSModel:
                 max_phases = 4
             
             # Sort schools differently based on strategy
-            if strategy == 5:  # Cheapest+Fastest
+            if strategy == 4:  # Done Quickly
+                recommendations = recommendations.sort_values('Speed_Score', ascending=False)
+            elif strategy == 5:  # Cheapest+Fastest
                 recommendations = recommendations.sort_values(['Speed_Score', 'Deficiencies'], 
                                                            ascending=[False, True])
             elif strategy == 7:  # Fastest+Quality
@@ -291,8 +296,6 @@ class WichitaPSModel:
                                                            ascending=[False, False])
             elif strategy == 2:  # Cheapest
                 recommendations = recommendations.sort_values('Deficiencies', ascending=True)
-            elif strategy == 4:  # Highest Quality
-                recommendations = recommendations.sort_values('Priority_Score', ascending=False)
             else:
                 # Default sorting by priority score
                 recommendations = recommendations.sort_values('Priority_Score', ascending=False)
@@ -319,7 +322,12 @@ class WichitaPSModel:
                     total_cost += cost
                 
                 # Start new phase when 90% of budget is used or max schools per phase reached
-                phase_threshold = 0.9 if strategy != 5 else 0.85  # Lower threshold for fast strategy
+                phase_threshold = 0.9
+                if strategy == 4:  # Done Quickly - fill phases more completely
+                    phase_threshold = 0.95
+                elif strategy == 5:  # Cheapest+Fastest - more smaller phases
+                    phase_threshold = 0.85
+                
                 if total_cost >= phase_budget * phase_threshold or len(current_phase) >= 15:
                     phases.append({
                         'schools': current_phase,
@@ -994,7 +1002,7 @@ def main():
             print("1. Status Quo")
             print("2. Cheapest Option")
             print("3. Within Entire Scope Option (Quality)")
-            print("4. Highest Quality Option")
+            print("4. Done Quickly Option")
             print("5. Cheapest+Fastest (low quality)")
             print("6. Cheapest+Quality (low priority)")
             print("7. Fastest+Quality (the most expensive)")
